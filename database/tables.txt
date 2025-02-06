@@ -10,9 +10,3 @@ CREATE TABLE IF NOT EXISTS movies (
     showtime TIME NOT NULL,
     status TINYINT(1) DEFAULT 0
 );
-
-CREATE TABLE IF NOT EXISTS users (
-        id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-        username VARCHAR(100) NOT NULL,
-        password LONGTEXT(200) NOT NULL
-        );
